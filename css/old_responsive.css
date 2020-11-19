@@ -1,0 +1,37 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .header-txt p {
+    font-size: 1rem;
+  }
+
+  .main-nav .container, .shop-row, .page-footer .inline-menu {
+    flex-direction: column;
+  }
+
+  .main-nav .container {
+    align-items: flex-start;
+  }
+
+  .main-nav .site-logo {
+    height: 25px;
+  }
+
+  .page-hero {
+    padding: 50px 0;
+  }
+
+  .single-product {
+    margin-bottom: 25px;
+    margin-right: 0;
+  }
+}
